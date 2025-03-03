@@ -57,7 +57,7 @@ The Current repo i have implemented the following functionality:
 
 - **Request**:
   ```bash
-  curl -X POST http://127.0.0.1:5000/order \
+  curl -X POST https://order-service-ra6t.onrender.com/order \
   -H "Content-Type: application/json" \
   -d '{
     "order_id": "12345",
@@ -69,11 +69,11 @@ The Current repo i have implemented the following functionality:
 ### **Check order status**
 
 ```bash
-      curl -X GET curl http://127.0.0.1:5000/order/456
+      curl -X GET  https://order-service-ra6t.onrender.com/order/456
 ```
 
 ### **Fetch Metrics**
 
 ```bash
-      curl -X GET http://127.0.0.1:5000/metrics
+      curl -X GET https://order-service-ra6t.onrender.com/metrics
 ```
